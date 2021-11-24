@@ -1,0 +1,37 @@
+<div class="column-layout column">
+  <h4 class="title">lOGIN</h4>
+  <div class="column-layout_1 column">
+    <igx-input-group placeholder="email@gmail.com" type="border" class="input-group">
+      <igx-prefix>
+        <igx-icon font="material" [active]="true" class="icon">person</igx-icon>
+      </igx-prefix>
+      <label igxLabel for="inputField">Email address</label>
+      <input type="email" name="inputField" [required]="false" [disabled]="false" placeholder="email@gmail.com" igxInput />
+      <igx-suffix>
+        <igx-icon font="material" [active]="true" class="icon">clear</igx-icon>
+      </igx-suffix>
+      <igx-hint>Please enter a valid email</igx-hint>
+    </igx-input-group>
+    <igx-input-group placeholder="password" type="border" class="input-group">
+      <label igxLabel for="inputField">Password</label>
+      <input type="password" name="inputField" [required]="true" [disabled]="false" placeholder="password" igxInput />
+      <igx-suffix>
+        <igx-icon font="material" [active]="true" class="icon">clear</igx-icon>
+      </igx-suffix>
+    </igx-input-group>
+  </div>
+  <div class="row-layout_1 row">
+    <igx-checkbox labelPosition="after" [checked]="false" [disabled]="false" class="checkbox">Remember Me</igx-checkbox>
+    <p class="text"></p>
+  </div>
+  <div class="row-layout row">
+    <button igxButton="raised" [disabled]="false" class="button">
+      <span>Reset</span>
+      <igx-icon>autorenew</igx-icon>
+    </button>
+    <button igxButton="raised" [disabled]="false" class="button">
+      <span>login</span>
+      <igx-icon>trending_flat</igx-icon>
+    </button>
+  </div>
+</div>

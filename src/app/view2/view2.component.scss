@@ -1,0 +1,23 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.row-layout {
+  align-items: stretch;
+  position: relative;
+  padding: 24px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.title {
+  width: max-content;
+  height: max-content;
+  flex-shrink: 0;
+  white-space: pre-wrap;
+}
+.row {
+  display: flex;
+}

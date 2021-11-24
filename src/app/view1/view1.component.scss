@@ -1,0 +1,78 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column-layout {
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.row-layout {
+  padding: 5px;
+  width: 277px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.row-layout_1 {
+  width: 280px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.column-layout_1 {
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.title {
+  text-align: center;
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.checkbox {
+  width: max-content;
+  height: max-content;
+}
+.button {
+  flex-shrink: 0;
+  margin: 5px;
+  min-width: min-content;
+  height: max-content;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  font-size: 24px;
+}
+.input-group {
+  margin: 5px;
+  min-width: min-content;
+  height: max-content;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
